@@ -1,0 +1,93 @@
+.MissionSubTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px ;
+}
+.MissionTitle{
+    text-align: center;
+    padding: 10px 0px;
+}
+.MissionTitleH1{
+    /* border-bottom-style: outset; */
+    /* border-bottom-width: 7px; */
+    border-bottom:5px solid #FFC966;
+    /* border-bottom-color: #f5a615; */
+    
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.MissionTitle h1{
+    /* line-height: 45px; */
+}
+.MissionTitle p{
+    margin:15px 10px 15px 0px;
+    font-size: 20px;
+    
+} 
+.MissionDescription{
+    width: 45%;
+    /* background-color: bisque; */
+    text-align:center;
+    margin: 0 auto;
+    font-size:21px;
+    color:rgb(194, 192, 192);
+ 
+}
+.MissionDescription p{
+   margin: 15px 0px;
+}
+
+.MissionBg{
+    /* background-image: url('../../Assets/missionComponentBg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    background-position-x:-700px;
+    background-position-y:-300px; */
+    /* border-left-width:40px;
+    border-left-image: url('../../Assets/missionComponentBg.png'); */
+    position: relative;
+    padding: 50px 0px;
+}
+.MissionBg img{
+    position: absolute;
+    top: -80px;
+    left: 50px;
+    width: 100px;
+    
+}
+.missionAllCard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:40px;
+    grid-column-gap:30px;
+    padding: 0px 30px;
+    margin: 25px;
+}
+
+
+@media (max-width: 575.98px) { 
+    .missionAllCard{
+        grid-template-columns: repeat(1,1fr);
+    }
+      
+  }
+  
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .missionAllCard{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .missionAllCard{
+        grid-template-columns: repeat(2,1fr);
+    }
+   
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+  }

@@ -1,0 +1,23 @@
+[
+    {
+        "img":"https://i.ibb.co/1JS70bF/dungeon.png",
+        "title":"UAE Free Zone Company",
+        "description":"Your registration agent, will answer all of your questions and help you toreach a conclusion that meets your objectives of investing in the UAE.",
+        "btnTitle":"Get Started",
+        "id":"1"
+    },
+    {
+        "img":"https://i.ibb.co/D4m6y8N/Vector-2.png",
+        "title":"Dubai Local Companies",
+        "description":"The Dubai LLC formation documents are actually articles of organization or a certificate of organization. You can get yours today",
+        "btnTitle":"Get Started",
+        "id":"2"
+    },
+    {
+        "img":"https://i.ibb.co/nsPgtnY/Vector-1.png",
+        "title":"Offshore Compamies",
+        "description":"You can register an offshore company and open its bank account in Dubai. Your agent will help you along all the process",
+        "btnTitle":"Get Started",
+        "id":"3"
+    }
+]
