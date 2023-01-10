@@ -1,0 +1,13 @@
+.PricingTitle{
+    width:360px;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+.PricingTitle h3{
+        text-align: center;
+        padding: 30px 0px;
+}
+.PricingTitle h3 span{
+    display: inline-block;
+    border-bottom:5px solid #FFC966;
+}

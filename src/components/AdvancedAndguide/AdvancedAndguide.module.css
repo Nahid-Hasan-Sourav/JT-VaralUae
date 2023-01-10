@@ -1,0 +1,75 @@
+.AllCard{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.leftSide{
+    flex-basis: 50%;
+    /* border: 1px solid black; */
+    padding: 0px 90px;
+}
+.rightSide{
+    flex-basis: 50%;
+    /* border: 1px solid red; */
+    /* padding-right: 30px; */
+    padding: 10px 90px;
+}
+.leftSideHeaderText h5{
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding:10px 0px;
+}
+.leftSideHeaderText p{
+    color:#525ded;
+    margin-top: 10px;
+    margin-bottom: 115px;
+}
+.RightSideFooter div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.RightSideFooter div img{
+    margin-left: 8px;
+}
+/* .leftSideHeaderText h5{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.leftSideHeaderText p{
+    color:#525ded;
+    margin-top: 10px;
+}
+.leftSideCardOne{
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+.leftSideCardOne .imgOne{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.leftSideCardOneBody{
+    padding: 0px 20px;
+}
+.leftSideCardOneBody h4{
+    margin-bottom: 20px;
+    
+}
+.leftSideCardOneBodyDes{
+    color:rgb(194, 192, 192);
+    margin-bottom: 20px;
+}
+.leftSideCardOneBodyFooter{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.leftSideCardOneBodyFooter img{
+    margin-left: 10px;
+    display: block;
+    color:#525ded;
+
+} */
